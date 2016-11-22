@@ -17,7 +17,6 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
 
     private static final int REQ_CODE_MEDIA = 1;
 
-    private Button mBtnPhoto;
     private Button mBtnVideo;
     private Button mBtnAudio;
 
@@ -32,11 +31,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     }
 
     private void initViews() {
-        mBtnPhoto = (Button) findViewById(R.id.Button_Photo);
         mBtnVideo = (Button) findViewById(R.id.Button_Video);
         mBtnAudio = (Button) findViewById(R.id.Button_Audio);
 
-        mBtnPhoto.setOnClickListener(this);
         mBtnVideo.setOnClickListener(this);
         mBtnAudio.setOnClickListener(this);
 
@@ -49,10 +46,9 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
             return;
         }
 
-        if (v.getId() == R.id.Button_Photo) {
-
-        } else if (v.getId() == R.id.Button_Video) {
-
+        if (v.getId() == R.id.Button_Video) {
+            Intent intent = new Intent(this, VideoActivity.class);
+            startActivity(intent);
         } else if (v.getId() == R.id.Button_Audio) {
             Intent intent = new Intent(this, AudioActivity.class);
             startActivity(intent);

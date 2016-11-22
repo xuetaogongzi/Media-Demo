@@ -25,6 +25,10 @@
 
         <activity android:name=".AudioActivity" />
 
+        <activity android:name=".VideoActivity" />
+
+        <activity android:name=".FragmentHolderActivity" />
+
     </application>
 
 </manifest>

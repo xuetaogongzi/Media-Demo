@@ -5,4 +5,7 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="white">#ffffff</color>
+
+    <color name="recordVideoBgBalck">#ff232832</color>
+    <color name="recordVideoTextBg" >#80000000</color>
 </resources>

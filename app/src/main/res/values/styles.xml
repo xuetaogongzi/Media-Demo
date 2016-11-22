@@ -18,4 +18,12 @@
         <item name="android:textSize">@dimen/title_text_size</item>
     </style>
 
+    <style name="RecordCircleButton">
+        <item name="android:layout_width">45dip</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:background">@drawable/slbg_black_circle_with_white_border</item>
+        <item name="android:textColor">@color/sl_text_white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
 </resources>

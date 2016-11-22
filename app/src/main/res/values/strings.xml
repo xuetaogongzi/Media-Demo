@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MediaDemo</string>
+
+    <string name="no_live_right">您还没有直播权限,录制一段30S视频,提交审核</string>
+
+    <string name="record_again">重拍</string>
+    <string name="ok">确定</string>
+
+    <string name="record_time_too_short">录制时间太短</string>
+    <string name="start_record">开始录制</string>
+    <string name="finish_record">结束录制</string>
+    <string name="pls_record_video_first">请先拍摄一段视频</string>
+    <string name="camera_init_error">相机初始化失败,请在系统设置里检查是否开启了相关权限</string>
+    <string name="record_error">录制视频出错,请重试</string>
 </resources>
